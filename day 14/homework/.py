@@ -37,7 +37,7 @@ for i in range(20):
 #9) 10-დან 30-მდე დაბეჭდეთ ყველა რიცხვი გაყოფილი 2-ზე
 
 num=10
-num1=30
+num1=31
 for i in range (num,num1):
     print(i/2)
 
