@@ -68,7 +68,8 @@ for i in name:
 # გადაუარეთ ამ დიაპაზონს for ციკლით და დაბეჭდეთ საიტერაციო ცვლადის კვადრატები
 
 num1,num2,num3=int(input("Enter number: ")),int(input("Enter number: ")),int(input("Enter number: "))
-for i in range(num1, num2, num3):
+range= range(num1, num2, num3)
+for i in range:
     print(i**2)
 
 #14) ციკლის გარეთ შექმენით ცვლადი სახელად sum და გაუტოლეთ 0-ს. 
